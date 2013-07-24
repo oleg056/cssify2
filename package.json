@@ -1,18 +1,23 @@
 {
-  "name": "cssify",
-  "version": "0.0.0",
+  "name": "cssify2",
+  "version": "0.0.2",
   "description": "Browserify middleware for adding required styles to the page.",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": "git@github.com:trxcllnt/cssify2.git",
   "keywords": [
     "browserify",
     "css",
     "middleware"
   ],
   "browserify": "./lib/cssify-browser.js",
-  "author": "David Guttman",
-  "license": "BSD"
+  "author": "Paul Taylor",
+  "license": "BSD",
+  "dependencies": {
+    "cssify2": "~0.0.2",
+    "node-sass": "~0.5.4",
+    "through": "~2.2.7"
+  }
 }
